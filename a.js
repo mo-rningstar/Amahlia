@@ -1,8 +1,8 @@
-function aboutme() {
-	window.open("1.html");
-}
 function home() {
 	window.open("index.html");
+}
+function aboutme() {
+	window.open("1.html");
 }
 function contact() {
 	window.open("2.html");
