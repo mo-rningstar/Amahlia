@@ -4,13 +4,83 @@ body, html {
     background-color: #e6f2ff;
 }
 
-#demo {
-  text-align: center;
-  position: absolute;
-  top: 5%;
-  left: 50%;
-  transform: translate(-50%, -5%);
-  color: black;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+li {
+  display: inline-block;
+  float:left;
+}
+
+iframe {
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+a.contact:link, visited, active  {
+  width: 150px;
+  height: 150px;
+  font-family: Trebuchet, sans-serif;
+  text-decoration: none;
+  background-color: white;
+  border: 2px solid #80c1ff;
+  border-radius: 5%;
+  color: blue;
+  color: #80c1ff;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.contact:hover{
+  color: #fc94c8;  
+  border: 2px solid #fc94c8;
+}
+
+a.nav:link, visited, active  {
+  font-family: Trebuchet, sans-serif;
+  text-decoration: none;
+  background-color: white;
+  border: 2px solid #80c1ff;
+  color: blue;
+  color: #80c1ff;
+  padding: 10px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  width: 100px;
+}
+
+a.nav:hover{
+  color: #fc94c8;
+  border: 2px solid #fc94c8;
+}
+
+a.img {
+  width:150px;
+  height:150px;
+}
+
+a.img:link, visited, active {
+  font-family: Trebuchet, sans-serif;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  border: 2px solid #80c1ff;
+  color: #80c1ff;
+  padding: 10px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.img:hover {
+  background-color: #fc94c8;
+  font-style: bold;
 }
 
 .hero-image {
@@ -37,12 +107,6 @@ body, html {
   color: black;
 }
 
-#info {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 20px;
-  font-style: italic;
-}
-
 .hero-text button {
   border: none;
   outline: 0;
@@ -61,18 +125,6 @@ body, html {
   font-style: bold;
 }
 
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 10px;
-}
-
-li {
-	display: inline-block;
-	float:left;
-}
-
 .navbar {
 	position: fixed;
 	margin: 0px;
@@ -81,23 +133,40 @@ li {
   background-color: #060d75;  
 }
 
-a.nav:link, visited, active  {
+.divImage {
+  float: center;
+  margin-left: 1.5%;
   font-family: Trebuchet, sans-serif;
-  text-decoration: none;
-  background-color: white;
-  border: 2px solid #80c1ff;
-  color: blue;
-  color: #80c1ff;
-  padding: 10px;
-  text-align: center; 
-  text-decoration: none;
+  text-align: center;
   display: inline-block;
-  width: 100px;
+
+  width: 200px; 
+  height: 200px;
 }
 
-a.nav:hover{
-  color: #fc94c8;
-  border: 2px solid #fc94c8;
+
+.imgLink {
+  opacity: 1;
+}
+
+#demo {
+  text-align: center;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -5%);
+  color: black;
+}
+
+.contact {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#info {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-style: italic;
 }
 
 #divAmahlia {
@@ -129,44 +198,6 @@ a.nav:hover{
 	display: inline-block;
 }
 
-.divImage {
-	float: center;
-	margin-left: 1.5%;
-	font-family: Trebuchet, sans-serif;
-	text-align: center;
-	display: inline-block;
-
-	width: 200px; 
-	height: 200px;
-}
-
-
-.imgLink {
-	opacity: 1;
-}
-
-a.img {
-  width:150px;
-  height:150px;
-}
-
-a.img:link, visited, active {
-  font-family: Trebuchet, sans-serif;
-  text-decoration: none;
-  background-color: #FFFFFF;
-  border: 2px solid #80c1ff;
-  color: #80c1ff;
-  padding: 10px;
-  text-align: center; 
-  text-decoration: none;
-  display: inline-block;
-}
-
-a.img:hover {
-  background-color: #fc94c8;
-  font-style: bold;
-}
-
 #contactHeader {
 	padding-top: 80px;
   font-family: Trebuchet, sans-serif;
@@ -181,27 +212,9 @@ a.img:hover {
   text-align: center;
 }
 
-.contact {
-  padding: 10px;
-  margin-bottom: 20px;
-}
-
-a.contact:link, visited, active  {
-  width: 150px;
-  height: 150px;
-  font-family: Trebuchet, sans-serif;
-  text-decoration: none;
-  background-color: white;
-  border: 2px solid #80c1ff;
-  border-radius: 5%;
-  color: blue;
-  color: #80c1ff;
-  text-align: center; 
-  text-decoration: none;
-  display: inline-block;
-}
-
-a.contact:hover{
-  color: #fc94c8;  
-  border: 2px solid #fc94c8;
+#framespace {
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
 }
